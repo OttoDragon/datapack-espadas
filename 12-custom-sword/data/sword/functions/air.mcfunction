@@ -1,0 +1,3 @@
+execute as @a[nbt={SelectedItem:{tag:{Custom:321}}}] at @s run playsound block.beacon.power_select voice @a ~ ~ ~ 2 2
+execute as @a[nbt={SelectedItem:{tag:{Custom:321}}}] at @s run particle enchant ~ ~1 ~ 0.5 0.5 0.5 0.001 100 normal
+execute as @a[nbt={SelectedItem:{tag:{Custom:321}}}] at @s run item replace entity @a weapon.mainhand with minecraft:iron_sword{display:{Name:'{"text":"Mana Sword","color":"white","italic":false,"obfuscated":true}'},Enchantments:[{lvl:103,id:"minecraft:piercing"},{id:quick_charge,lvl:5}],HideFlags:5,Unbreakable:1,Custom:3211}
